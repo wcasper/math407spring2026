@@ -40,7 +40,7 @@ Thus for example $$\omega_n$$ is a primitive $$n$$'th root of unity.  (As an asi
 <details>
   <summary>Reveal hint</summary>
 
-  Remember that $$j$$ and $$n$$ are relatively prime if and only if there exists $$a,b\in\mathbb Z$$ with $$aj+bn=1$$.
+  Remember that $j$ and $n$ are relatively prime if and only if there exists $a,b\in\mathbb Z$ with $$aj+bn=1$$.
 </details>
 
 
