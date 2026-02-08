@@ -18,9 +18,9 @@ b) If $$H$$ and $$K$$ are subgroups of a group $$G$$, then the intersection $$H\
 
 c) If $$G$$ is a group of order $$4$$, then $$G$$ must be a cyclic group
 
-d) If $$H$$ is a subgroup of a finite group $$G$$, then the number of left cosets of $$H$$ in $$G$$ must divide the order of $$G$$
+d) $$-\omega_3$$ is a primitive sixth root of unity.
 
-e) If $$G$$ is a group and $$a\in G$$, then $$a^2 = a$$ if and only if $$a=e$$
+e) The set $$\{0,2,4\}$$ is a subgroup of $$Z_5$$
 
 ## Problem 2
 
