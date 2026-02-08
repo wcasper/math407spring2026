@@ -142,5 +142,8 @@ Please contact the following if you have:
 ### Religious and other accommodations
 If you require accommodations for religious or other reasons, please email the instructor.
 
+### Generative AI Policy
+
+For this course, students must be the author of all work. The use of generative AI, such as ChatGPT, is not permitted. Use of these tools will be considered a violation of the CSUF Academic Dishonesty Policies and may be subject to disciplinary action.
 
 
