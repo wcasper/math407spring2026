@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Lecture 2
+title: Lecture 4
 ---
 
 Notes and highlights from lecture
@@ -8,7 +8,7 @@ Notes and highlights from lecture
 
 ## Reading assignments
 
-* Read through Section 2 
+* Read Section 4 and 5 of the notes introducing Abstract Algebra.
 
 
 

@@ -8,7 +8,7 @@ Notes and highlights from lecture
 
 ## Reading assignments
 
-* Read through Section 2 
+* Read Section 6 of the notes introducing Abstract Algebra.
 
 
 
