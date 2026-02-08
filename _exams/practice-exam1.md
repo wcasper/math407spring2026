@@ -38,9 +38,9 @@ $$z_1^3 + z_2^3 + z_3^3 + z_4^3.$$
 
 a) Write down the definition of a cyclic subgroup and a cyclic group.
 
-a) Prove that if $$G$$ is a cyclic group, then every subgroup of $$G$$ is also cyclic.
+b) Prove that if $$G$$ is a cyclic group, then every subgroup of $$G$$ is also cyclic.
 
-b) Determine all the subgroups of $$\mathbb Z_{12}$$
+c) Determine all the subgroups of $$\mathbb Z_{12}$$
 
 ## Problem 4
 
