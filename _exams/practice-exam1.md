@@ -60,7 +60,7 @@ b) Prove that for $$\omega_n = e^{2\pi i/n}$$
 
 $$U_n = \{1,\omega_n,\omega_n^2,\dots,\omega_n^{n-1}\}.$$
 
-c) Determine the value of
+c) Let $$n>0$$ be odd.  Determine the value of
 
 $$\frac{1}{1 + 1} + \frac{1}{1 + \omega_n} + \frac{1}{1+\omega_n^2} + \dots + \frac{1}{1+\omega_n^{n-1}}.$$
 
