@@ -68,7 +68,7 @@ c) Prove that if an automorphism $$\varphi$$ satisfies $$\varphi(z_1) = z_1$$, $
 
 **Problem 4:**
 
-Let $$n>1$$ be an integer and consider the field $$F=\mathbb Q(\omega_n)$$.
+Let $$n>1$$ be a square-free integer and consider the field $$F=\mathbb Q(\omega_n)$$.
 
 a) Prove that
 
