@@ -18,7 +18,7 @@ If you wish to use the second method and don't own a scanner at home, you can ch
 
 Let $$F$$ be a field and suppose $$\varphi: F\rightarrow F$$ is a field automorphism.  
 
-a) Prove that $$\varphi(0) = 1$$.
+a) Prove that $$\varphi(0) = 0$$.
 
 b) Prove that $$\varphi(1) = 1$$.
 
