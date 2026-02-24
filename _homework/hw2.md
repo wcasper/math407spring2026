@@ -68,11 +68,11 @@ c) Prove that if an automorphism $$\varphi$$ satisfies $$\varphi(z_1) = z_1$$, $
 
 **Problem 4:**
 
-Let $$n>1$$ be a square-free integer and consider the field $$F=\mathbb Q(\omega_n)$$.
+Let $$n>1$$ be an integer and consider the field $$F=\mathbb Q(\omega_n)$$.
 
 a) Prove that
 
-$$F = \text{span}_{\mathbb Q}\{\omega_n^k: 1\leq k < n,\ \gcd(k,n)=1\}$$
+$$F = \text{span}_{\mathbb Q}\{\omega_n^k: 1\leq k < n\}$$
 
 b) Prove that an automorphism $$\varphi$$ of $$F$$ must satisfy $$\varphi(\omega_n) = \omega_n^j$$ for some integer $$1\leq j < n$$ with $$\gcd(j,n) =1$$.
 
