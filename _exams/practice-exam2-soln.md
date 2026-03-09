@@ -1,0 +1,210 @@
+---
+layout: page
+title: Practice Exam 2 Solutions
+permalink: /exams/practice-exam2-soln
+---
+
+Solve each of the following problems.
+If the problem asks for a proof, be sure to carefully justify your work, including any theorems from class.
+
+Note: you may NOT use a theorem or result from class to prove something when it makes the problem entirely trivial.  If you are unsure whether a particular theorem or result is allowed, just ask!
+
+## Problem 1 (True or False)
+For each of the following, write TRUE if the statement is true and FALSE if the statement is false.  NO explanation is needed.
+
+* (a) The element $$\sqrt{\pi}$$ is algebraic over $$\mathbb Q(\pi)$$
+* (b) The field extension $$\mathbb Q(\sqrt{2},\sqrt{3})$$ is simple
+* (c) If $$I$$ is a radical ideal of $$R$$, then $$R/I$$ is a reduced ring
+* (d) If $$\varphi: F\rightarrow F$$ is a field automorphism, then $$\varphi(1) = 1$$
+* (e) An algebraic field extension must be a finite field extension.
+
+**Solution:**
+
+True,True,True,True,False
+
+## Problem 2
+
+Consider the field extension  
+
+$$E = \mathbb{Q}(\omega_5,\sqrt[5]{5})$$ 
+
+of $$\mathbb{Q}$$ and suppose $$\varphi$$ is a field automorphism of $$E$$.
+
+* (a) Prove that $$\phi(\omega_5)$$ must be $$\omega_5^j$$ for some $$1\leq j\leq 4$$.
+* (b) Prove that $$\phi(\sqrt[5]{5})$$ must be $$\sqrt[5]{5}\omega_5^k$$ for some $$0\leq k\leq 4$$.
+
+* (c) Prove that if $$\phi(\omega_5) = \omega_5$$ and $$\phi(\sqrt[5]{5}) = \sqrt[5]{5}$$, then $$\phi$$ is the identity.  
+
+**Solution:**
+
+* (a) 
+Since $$\phi(\omega_5)^5=\phi(\omega_5^5)=\phi(1)=1$$, we get that $$\phi(\omega_5)$$ is a fifth root of unity.  Moreover, since $$\phi$$ is a bijection and $$\phi(1)=1$$, we know $$\phi(\omega_5)$$ cannot be $$1$$.  Therefore it must be $$\omega_5$$, $$\omega_5^2$$, $$\omega_5^3$$ or $$\omega_5^4$$.
+* (b) 
+Since $$\phi(\sqrt[5]{5})^5=\phi(\sqrt[5]{5}^5) = \phi(5) = 5$$, we know that $$\phi(\sqrt[5]{5})$$ must be a solution of $$z^5-5$$.  Therefore it is $$\sqrt[5]{5}\omega_5^k$$ for some $$0\leq k\leq 4$$.
+* (c) To prove this, we need to get a spanning set for $$E$$ over $$\mathbb Q$$.
+Remember if $$K$$ is any field and $$a$$ is a root of a polynomial of degree $$n$$ with coefficients in $$K$$, then
+
+$$K(a)=\text{span}_K\{1,a,a^2,\dots, a^{n-1}\}.$$
+
+Moreover, by the next problem $$E = K(\sqrt[5]{5})$$ for $$K=\mathbb Q(\omega_5)$$.
+Therefore
+
+$$K=\text{span}_{\mathbb Q}\{1,\omega_5,\omega_5^2,\omega_5^3,\omega_5^4\},$$
+
+and also
+
+$$E=\text{span}_{\mathbb K}\{1,\sqrt[5]{5},\sqrt[5]{5^2},\sqrt[5]{5^3},\sqrt[5]{4}\},$$
+
+so that $$E$$ is spanned over $$\mathbb Q$$ by the products:
+
+$$E=\text{span}_{\mathbb Q}\{\omega_5^j\sqrt[5]{5^k}: 0\leq j,k\leq 4\}.$$
+
+Then since $$\phi$$ fixes $$\sqrt[5]{5}$$ and $$\omega_5$$, we get
+
+$$\phi(\omega_5^j\sqrt[5]{5^k}) = \phi(\omega_5)^j\phi(sqrt[5]{5})^k = \omega_5^j\sqrt[5]{5^k}.$$
+
+Since $$\phi$$ is $$\mathbb Q$$-linear and fixes a spanning set, it must be the identity.
+
+## Problem 3
+
+Prove that if $$K$$ is a field extension of $$F$$ and $$a,b\in K$$, then
+
+$$F(a,b) = F(a)(b).$$
+
+Additional practice: prove that $$\mathbb Q(\sqrt{2}+\sqrt{3}) = \mathbb Q(\sqrt{2}},\sqrt{3})$$
+
+**Solution:**
+
+By definition, we have the following facts
+ - 1)  $$F(a)$$ is a field extension of $$F$$ containing $$a$$
+ - 2) any other field extension of $$F$$ containing $$a$$ must contain $$F(a)$$
+ - 3) $$F(a,b)$$ is a field extension of $$F$$ containing $$a$$ and $$b$$
+ - 4) any other field extension of $$F$$ containing both $$a$$ and $$b$$ must contain $$F(a,b)$$
+ - 5) $$F(a)(b)$$ is a field extension of $$F(a)$$ containing $$b$$
+ - 6) any other field extension of $$F(a)$$ containing $$b$$ must contain $$F(a)(b)$$ 
+
+By property (3) $$F(a,b)$ is a field extension of $$F$$ containing $$a$$.  Therefore property (2) says $$F(a)\subseteq F(a,b)$$.
+This means $$F(a,b)$$ is a field extension of $$F(a)$$, and since $$F(a,b)$$ contains $$b$$ property (6) says $$F(a)(b)\subseteq F(a,b)$$.
+
+ By property (5), $$F(a)(b)$$ contains $$b$$ and $$F(a)$$.  Therefore it contains $$a$$, $$b$$, and $$F$$.
+By property (4), $$F(a)(b)$$ must contain $$F(a,b)$$, ie. $$F(a,b)\subseteq F(a)(b)$$.
+
+Combining the previous two results, we get $$F(a)(b)=F(a,b)$$.
+
+## Problem 4
+
+Consider the following field extensions of $$\mathbb{Q}$$:
+
+$$K = \mathbb Q(\sqrt[5]{5}),\quad E = \mathbb{Q}(\omega_5,\sqrt[5]{5}).$$ 
+
+* (a) Find a basis for $$K$$ over $$\mathbb{Q}$$
+* (b) Find a basis for $$E$$ over $$K$$
+* (c) Find a basis for $$E$$ over $$\mathbb{Q}$$
+
+**Solution:**
+
+* (a) $$\{1,\sqrt[5]{5},\sqrt[5]{5^2},\sqrt[5]{5^3},\sqrt[5]{5^4}\}$$ is a basis of $$K$$ over $$\mathbb Q$$
+* (b) $$\{1,\omega_5,\omega_5^2,\omega_5^3\}$$ is a basis of $$E$$ over $$K$$
+* (c) Taking the product, we get that
+
+$$\{\omega_5^j\sqrt[5]{5^k}: 0\leq j\leq 3,\ \ 0\leq k\leq 4\}$$
+
+is a basis for $$E$$ over $$\mathbb Q$$
+
+
+## Problem 5
+
+Let $$G=\mathbb{Z}\times\mathbb{Z}$$ and let $$H$$ be the subgroup of $$G$$ generated by $$(4,0)$$ and $$(2,3)$$.
+
+a) Write down explicitly the distinct cosets of $$G/H$$
+
+b) Is the group $$G/H$$ cyclic?  Explain.
+
+**Solution:**
+
+a) Given an element $$(a,b)\in G$$, we have that
+
+$$(a,b) + H = (a-2j-4k,b-3j)+H$$
+
+for any integers $$j$$ and $$k$$.  Therefore by an appropriate choice of $$j$$, we can reduce the second entry to $$0$$, $$1$$, or $$2$$.  Then by carefully choosing $$k$$, we can reduce $$a$$ to $$0$$, $$1$$, $$2$$, or $$3$$.  Thus $$G/H$$ consists of 12 cosets:
+
+$$(0,0) + H,\ \ (1,0) + H,\ \ (2,0) + H,\ \ (3,0) + H$$
+
+$$(0,1) + H,\ \ (1,1) + H,\ \ (2,1) + H,\ \ (3,1) + H$$
+
+$$(0,2) + H,\ \ (1,2) + H,\ \ (2,2) + H,\ \ (3,2) + H$$
+
+b) We calculate
+
+$$(6a,6b) = (6a-2b,0)
+
+
+$$0((1,2) + H) = (0,0) + H,\ \ 1((1,2) + H) = (1,2) + H,\ \ 2((1,2) + H) = (0,1) + H$$
+
+$$3((1,2) + H) = (3,0) + H,\ \ 4((1,2) + H) = (0,2) + H,\ \ 5((1,2) + H) = (3,1) + H$$
+
+$$6((1,2) + H) = (2,0) + H,\ \ 7((1,2) + H) = (3,2) + H,\ \ 8((1,2) + H) = (2,1) + H$$
+
+$$9((1,2) + H) = (1,0) + H,\ \ 10((1,2) + H) = (2,2) + H,\ \ 11((1,2) + H) = (1,1) + H$$
+
+
+Therefore $$G/H = \langle (1,2) + H \rangle$$ so it is cyclic.
+
+## Problem 6
+
+Let $$G$$ be a finite group of order $$n$$ and suppose that $$H$$ is a subgroup of order $$m$$.
+
+* (a) State Lagrange's Theorem.
+* (b) State the definition of $$H$$ being a normal subgroup of $$G$$.
+* (c) Let $$d = n/m$$ and assume $$H$$ is a normal subgroup.  Prove that 
+
+$$g^dH = H\quad\text{for all}\ g\in G.$$
+
+**Solution:**
+
+* (a) Lagrange's Theorem:  Let $$G$$ be a finite group and $$H\leq G$$.  Then $$|G| = [G:H]\cdot H$$.
+* (b) A subgroup $$H$$ is called normal if $$ghg^{-1}\in H$$ for all $$g\in G$$ and $$h\in H$$.
+* (c) 
+
+By Lagrange's Theorem, $$G/H$$ will be a group of order $$d$$.
+Let $$g\in G$$.
+The order of the element $$gH$$ in the quotient $$G/H$$ is the same as the size of the subgroup $$\langle gH\rangle$$ of $$G/H$$ generated by the element $$gH$$. 
+Therefore again by Lagrange's Theorem $$r$$ must divide $$d$$, ie. $$d = rk$$.
+Hence  $(gH)^r=eH$$ and
+
+$$g^dH = (gH)^d = ((gH)^r)^{k} = (eH)^{k} = e^kH = eH.$$
+
+## Problem 7
+
+Let $$R$$ be a commutative ring with identity.
+
+* (a) Write down the definition of an ideal of $$R$$ being maximal.
+* (b) Show that $$I$$ is a maximal ideal of $$R$$ if and only if $$R/I$$ is a field.
+* (c) Prove that $$I = (n)$$ is a maximal ideal of $$\mathbb Z$$ if and only if $$n$$ is prime.
+
+**Solution:**
+
+* (a) An ideal $$I$$ is maximal if $$I\neq R$$ and if $$J$$ is an ideal of $$R$$ containing $$I$$, then $$J=I$$ or $$J=R$$
+* (b) Suppose that $$I$$ is maximal and let $$a\in R$$ with $$a+I\neq 0+I$$.  Then $$a\notin I$$ and the ideal
+
+$$J=\{x + ra: x\in I,\ r\in R\}$$
+
+contains $$I$$ and is not equal to $$I$$, so $$J=R$$.  Therefore in particular $$1\in J$$ so there exists $$x\in I$$ and $$r\in R$$ with $$x+ra = 1$$.
+
+It follows that $$1 + I = (x+ra)+I=ra+I$$ and therefore
+
+$$(r+I)(a+I) = ra+I = 1+I.$$
+
+Thus $$a+I$$ has an inverse.  Since every nonzero element of $$R/I$$ has an inverse, it must be a field.
+
+Conversely, suppose that $$R/I$$ is a field and that $$J$$ is an ideal of $$R$$ containing $$I$$.  We need to show that $$J=I$$ or $$J=R$$.  If $$J=I$$, we are done.  Therefore assume otherwise.  Then $$I\subsetneq J$$ so there exists $$a\in J$$ with $$a\notin I$$.  Since $$R/I$$ is a field, there must exists $$b\in R$$ with $$(a+I)(b+I) = 1+I$$.
+This means that $$ab+I=1+I$$ so that $$ab-1\in I$$.
+It follows that there exists $$x\in I$$ with $$ab-1=x$$.
+Hence $$1=ab-x\in J$$.  It follows that $$J=R$$.
+
+* (c) Suppose that $$(n)$$ is maximal.  If $$m$$ divides $$n$$, then $$(n)\subseteq (m)$$.  Since $$(n)$$ is maximal, this implies $$(m)=(n)$$ or $$(m)=R$$.  It follows that $$m=\pm n$$ or $$m=\pm 1$$.  Hence the only divisors of $$n$$ are $$\pm n$$ or $$\pm 1$$, making $$n$$ prime.
+
+Conversely, suppose that $$n$$ is prime.  Then $$\mathbb Z/(n)$$ is isomorphic to $$\mathbb Z_n$$ which is a field for prime $$n$$.  In particular if $$m\in \mathbb Z_n$$ is nonzero, then the fact that $$n$$ is prime implies $$\gcd(m,n)=1$$.  Therefore by the Euclidean algorithm, there exist integers $$j$$ and $$k$$ with $$jm+kn=1$$.  It follows that $$jm=1$$ in the ring $$\mathbb Z_n$$.  Therefore every nonzero element has an inverse.
+
+
+
