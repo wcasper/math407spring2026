@@ -63,7 +63,7 @@ Let $$G$$ be a finite group of order $$n$$ and suppose that $$H$$ is a subgroup 
 
 * (a) State Lagrange's Theorem.
 * (b) State the definition of $$H$$ being a normal subgroup of $$G$$.
-* (b) Let $$d = n/m$$ and assume $$H$$ is a normal subgroup.  Prove that 
+* (c) Let $$d = n/m$$ and assume $$H$$ is a normal subgroup.  Prove that 
 
 $$g^dH = H\quad\text{for all}\ g\in G.$$
 
@@ -72,7 +72,7 @@ $$g^dH = H\quad\text{for all}\ g\in G.$$
 Let $$R$$ be a commutative ring with identity.
 
 * (a) Write down the definition of an ideal of $$R$$ being maximal.
-* (b) Show that $$I$$ is a maximal ideal of $$R$$ if and only if $$R/I$$ is prime.
+* (b) Show that $$I$$ is a maximal ideal of $$R$$ if and only if $$R/I$$ is a field.
 * (c) Prove that $$I = (n)$$ is a maximal ideal of $$\mathbb Z$$ if and only if $$n$$ is prime.
 
 
