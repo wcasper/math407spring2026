@@ -71,7 +71,7 @@ Prove that if $$K$$ is a field extension of $$F$$ and $$a,b\in K$$, then
 
 $$F(a,b) = F(a)(b).$$
 
-Additional practice: prove that $$\mathbb Q(\sqrt{2}+\sqrt{3}) = \mathbb Q(\sqrt{2}},\sqrt{3})$$
+Additional practice: prove that $$\mathbb Q(\sqrt{2}+\sqrt{3}) = \mathbb Q(\sqrt{2},\sqrt{3})$$
 
 **Solution:**
 
