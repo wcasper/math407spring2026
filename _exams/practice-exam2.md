@@ -46,8 +46,8 @@ Consider the following field extensions of $$\mathbb{Q}$$:
 $$K = \mathbb Q(\sqrt[5]{5}),\quad E = \mathbb{Q}(\omega_5,\sqrt[5]{5}).$$ 
 
 * (a) Find a basis for $$K$$ over $$\mathbb{Q}$$
-* (b) Find a basis for $$E$$ over $$\mathbb{K}$$
-* (d) Find a basis for $$E$$ over $$\mathbb{K}$$
+* (b) Find a basis for $$E$$ over $$K$$
+* (c) Find a basis for $$E$$ over $$\mathbb{Q}$$
 
 ## Problem 5
 
