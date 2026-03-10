@@ -19,7 +19,7 @@ If you wish to use the second method and don't own a scanner at home, you can ch
 Let $$R$$ be a commutative ring with identity and let $$S\subseteq R$$ be a subset that is closed under multiplication, ie. $$a,b\in S\Rightarrow ab\in S$$.
 Define a relation $$\sim$$ on the set $$A=R\times S$$ by the rule
 
-$$(r,s)\sim (r',s')\Longleftrightarrow rs'=r's.$$
+$$(r,s)\sim (r',s')\Longleftrightarrow \exists t\in S\ \text{such that}\ rs't=r'st.$$
 
 This turns out to be an equivalence relation on $$A$$ and the set $$A/\sim$$ Of equivalence classes is called the **localization** of $$R$$ by $$S$$ and is denoted by $$S^{-1}R$$.
 
