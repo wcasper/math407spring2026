@@ -61,7 +61,7 @@ is an ideal in the ring $$F[x]$$ of polynomials with coefficients in $$F$$.
 
 * (b) Prove that $$p(x)$$ has no roots in $$F$$, then $$I$$ is a maximal ideal.
 
-* (c) Explicitly write down the four elements of the field $$\mathbb F_2[x]/I$$.
+* (c) Explicitly write down the four elements of the field $$\mathbb F_2[x]/I$$ for $$b=c=1$$.
 
 * (d) Write down addition, multiplication, and inversion tables for the elements of $$\mathbb F_2[x]/I$$.
 
