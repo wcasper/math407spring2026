@@ -208,7 +208,7 @@ Let $$m$$ and $$n$$ be positive integers.
 
 Let $$\varphi: G\rightarrow H$$ be a group homomorphism.  Then $$\ker(\varphi)$$ is a normal subgroup of $$G$$ and
 
-$$G/\ker(\varphi)\cong \img(\varphi).$$
+$$G/\ker(\varphi)\cong \text{img}(\varphi).$$
 
 * (b) Determine the image and the kernel of the group homomorphsm
 
