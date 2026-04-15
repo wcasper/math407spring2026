@@ -33,7 +33,7 @@ For each of the following fields, either prove that the field is a splitting fie
 
 Give an example of each of the following
 
-* (a) A field which is not separable
+* (a) A field extension which is not separable
 * (b) A ring which is not a UFD
 * (c) An algebraic field extension of $$\mathbb{Q}$$ with infinite degree
 * (d) A field extension whose Galois group is isomorphic to $$\mathbb Z_6$$
