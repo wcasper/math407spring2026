@@ -13,7 +13,7 @@ Note: you may NOT use a theorem or result from class to prove something when it 
 
 Let $$F$$ be a field, $$E$$ an extension field of $$F$$ and $$G = \text{Gal}_F(E)$$
 
-* (a) $$F$$ is the fixed subfield of $$G$$, ie. $$F = \{a\in E: \sigma(a) = a\ \forall a\in G\}$$
+* (a) $$F$$ is the fixed subfield of $$G$$, ie. $$F = \{a\in E: \sigma(a) = a\ \forall \sigma\in G\}$$
 
 * (b) If $$f(x)\in F[x]$$ and $$a\in E$$ is a root of $$f(x)$$, then $$\sigma(a)$$ is also a root of $$f(x)$$
 
