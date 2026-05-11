@@ -19,7 +19,7 @@ Let $$F$$ be a field, $$E$$ an extension field of $$F$$ and $$G = \text{Gal}_F(E
 
 * (c) If $$F\subseteq E$$ is a Galois extension, then $$\lvert G\rvert = [E:F]$$
 
-* (d) If $$f(x)\in F(x)$$ is irreducible, then all of the roots of $$f(x)$$ must be different
+* (d) If $$f(x)\in F[x]$$ is irreducible, then all of the roots of $$f(x)$$ must be different
 
 * (e) If $$F\subseteq E$$ is a Galois extension, then the number of subgroups of $$G$$ is equal to the number of field extensions of $$F$$ contained in $$E$$
 
